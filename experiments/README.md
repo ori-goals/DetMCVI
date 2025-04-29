@@ -1,8 +1,17 @@
+# Experimental Domains
 In each domain there is a header file `<domain>.h`, and code which calls detMCVI and other benchmarks in `<domain>.cpp`. 
 The file `<domain>_timeseries.cpp` runs the benchmarks with evaluations at regular intervals instead of just at the end.
 See `include/Params.h` for the input parameters.
 
+## Usage
+```
+<domain>_timeseries <problem_file> <output_file> [options]
+```
+`<problem_file>` should be a text file containing the problem specification, as detailed in each section below.
+`<output_file>` will be the csv file for the program to write results to.
+Use `--help` to find out more about the available options.
 
+## Domains
 ### Canadian Traveller Problem
 
 The Canadian Traveller Problem (CTP) was introduced in Papadimitriou and Yannakakis (1989).

@@ -21,10 +21,9 @@ else()
 endif()
 
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include ${CMAKE_CURRENT_SOURCE_DIR}/baselines)
 add_subdirectory(src)
 
 enable_testing()
-add_subdirectory(test)
 add_subdirectory(experiments)
 

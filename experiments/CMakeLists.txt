@@ -1,5 +1,4 @@
 add_subdirectory(CTP)
 add_subdirectory(Wumpus)
-add_subdirectory(Mastermind)
 add_subdirectory(Maze)
 add_subdirectory(SortGame)

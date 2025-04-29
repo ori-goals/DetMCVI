@@ -1,0 +1,5 @@
+add_executable(sortgame_experiment sortgame.cpp)
+target_link_libraries(sortgame_experiment detmcvi_library)
+
+add_executable(sortgame_timeseries sortgame_time_series.cpp)
+target_link_libraries(sortgame_timeseries detmcvi_library)
