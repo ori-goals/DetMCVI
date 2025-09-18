@@ -25,13 +25,10 @@ Bai, H. et al. (2011) ‘Monte Carlo value iteration for continuous-state POMDPs
 ## Citation
 To cite DetMCVI:
 ```
-@misc{schutz2025finitestatecontrollerbasedoffline,
+@inproceedings{schutz2025finitestatecontrollerbasedoffline,
       title={A Finite-State Controller Based Offline Solver for Deterministic POMDPs}, 
       author={Alex Schutz and Yang You and Matias Mattamala and Ipek Caliskanelli and Bruno Lacerda and Nick Hawes},
       year={2025},
-      eprint={2505.00596},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2505.00596}, 
+      booktitle={IJCAI}, 
 }
 ```
